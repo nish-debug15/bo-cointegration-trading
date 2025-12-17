@@ -37,6 +37,7 @@ that maximize **risk-adjusted performance** on rolling out-of-sample windows.
 ---
 
 ## Project Structure
+
 ```text
 beyond-johansen/
 │
@@ -57,3 +58,17 @@ beyond-johansen/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
+---
+
+## Data
+
+- Assets: **KO (Coca-Cola)** and **PEP (Pepsi)**
+- Source: Yahoo Finance
+- Frequency: Daily adjusted close prices
+- Period: 2000 → present
+
+Fetch data by running:
+
+```bash
+python src/fetch_data.py
