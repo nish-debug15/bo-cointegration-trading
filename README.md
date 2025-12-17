@@ -37,21 +37,21 @@ that maximize **risk-adjusted performance** on rolling out-of-sample windows.
 ---
 
 ## Project Structure
-basket_bo/
+beyond-johansen/
 │
 ├── data/
-│ └── ko_pep.csv
+│   └── ko_pep.csv
 │
 ├── src/
-│ ├── config.py
-│ ├── fetch_data.py
-│ ├── data_loader.py
-│ ├── johansen.py
-│ ├── spread.py
-│ ├── trading.py
-│ ├── metrics.py
-│ ├── bayes_opt.py
-│ └── rolling.py
+│   ├── config.py
+│   ├── fetch_data.py
+│   ├── data_loader.py
+│   ├── johansen.py
+│   ├── spread.py
+│   ├── trading.py
+│   ├── metrics.py
+│   ├── bayes_opt.py
+│   └── rolling.py
 │
 ├── main.py
 ├── requirements.txt
