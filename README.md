@@ -39,7 +39,7 @@ that maximize **risk-adjusted performance** on rolling out-of-sample windows.
 ## Project Structure
 
 ```text
-beyond-johansen/
+bo-cointegration-trading/
 │
 ├── data/
 │   └── ko_pep.csv
